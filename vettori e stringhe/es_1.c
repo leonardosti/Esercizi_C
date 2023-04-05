@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 int main(int argc, char *argv[])
 {
     char stringa[21];
@@ -18,5 +19,6 @@ int main(int argc, char *argv[])
         }
     }
     printf("Il carattere compare %d volte;\n", contaCarattere);
+    
     return 0;
 }

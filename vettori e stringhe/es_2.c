@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 int main(int argc, char *argv[])
 {
     char stringa[21];
@@ -15,6 +16,6 @@ int main(int argc, char *argv[])
         }
     }
     printf("La stringa ha  %d doppiette;\n", contaDoppiette);
-    return 0;
     
+    return 0;
 }

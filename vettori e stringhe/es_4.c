@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <string.h>
 
@@ -34,5 +33,6 @@ int main(int argc, char *argv)
     {
         printf("Carattere non presente nella stringa\n");
     }
+    
     return 0;
 }
