@@ -1,2 +1,2 @@
-# Esercizi_C
+Esercizi_C
 Programmi in C
