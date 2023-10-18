@@ -29,15 +29,12 @@ void Inserimento(student_t *studenti, int i)
 }
 int main(int argc, char *argv[])
 {
-
     const int lunghezza = 3;
-    student_t
- *studenti[lunghezza];
+    student_t *studenti[lunghezza];
+    
     for (int i = 0; i < lunghezza; i++)
     {
-        studenti[i] = (student_t
-     *)malloc(sizeof(student_t
-    ));
+        studenti[i] = (student_t*)malloc(sizeof(student_t));
         Inserimento(studenti[0], i);
     }
     stampa(studenti[0], lunghezza);
