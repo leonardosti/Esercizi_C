@@ -20,24 +20,25 @@ struct punto punto_modificato(struct punto pt1)
     int incremento = 0;
 
     printf("Inserire il valore di quanto si vuole incrementare i punto x, y, z:\n");
-    scanf("%d\n", &incremento);
+    scanf("%d", &incremento);
     pt1.x += incremento;
     pt1.y += incremento;
     pt1.z += incremento;
 
     return pt1;
 }
+
 int main(int argc, char *argv[])
 {
 
     struct punto pt1;
 
     printf("Inserire x: \n");
-    scanf("%d\n", &pt1.x);
+    scanf("%d", &pt1.x);
     printf("Inserire y: \n");
-    scanf("%d\n", &pt1.y);
+    scanf("%d", &pt1.y);
     printf("Inserire z: \n");
-    scanf("%d\n", &pt1.z);
+    scanf("%d", &pt1.z);
     stampa_punto(pt1);
     struct punto pt2 = punto_modificato(pt1);
     stampa_punto(pt2);
