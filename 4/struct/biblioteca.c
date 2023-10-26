@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 typedef struct
 {
     char autore[20];
     double prezzo;
     char titolo[20];
 } biblioteca;
-void popola(biblioteca *libro, int i)
+void inserimento(biblioteca *libro, int i)
 {
     printf("Inserire autore del libro %d \n", i + 1);
     scanf("%s", libro->autore);
@@ -40,7 +41,7 @@ int main(int argc, char *argv[])
     int scontoPercentuale;
     for (int i = 0; i < lunghezza; i++)
     {
-        popola(&libri[i], i);
+        inserimento(&libri[i], i);
     }
     printf("===================================\n");
     stampa(libri, lunghezza);
