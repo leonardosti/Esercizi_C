@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         exit(-1);
     }
 
-    if (p == 0) // processo padre
+    if (p != 0) // processo padre
     {
         printf("Processo padre: PID: %d, PID figlio %d\n", getpid(), p);
         close(fd[0]); // chiusa pipe in lettura (uscita pipe)
