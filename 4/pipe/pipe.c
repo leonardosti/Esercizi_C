@@ -53,6 +53,6 @@ int main(int argc, char *argv[])
         printf("messaggio: %s\n", buffer);
         close(fd[0]);
     }
-    // la piepe function sincronizza i processi
+    // la pipe function sincronizza i processi
     return 0;
 }
