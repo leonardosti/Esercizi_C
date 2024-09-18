@@ -2,7 +2,8 @@
     "files.associations": {
         "string.h": "c",
         "stdio.h": "c",
-        "unistd.h": "c"
+        "unistd.h": "c",
+        "pthread.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
